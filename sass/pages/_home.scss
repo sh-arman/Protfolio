@@ -1,0 +1,218 @@
+// Intro ===================== //
+.intro {
+  // background-color: gray;
+  height: 100%;
+
+  &_left {
+    // background-color: lightblue;
+
+    &--img {
+      width: 100%;
+    }
+  }
+
+  &_right {
+    // background-color: orange;
+    padding: 3rem 0;
+
+    &--1 {
+      font-size: 4rem;
+      font-weight: bolder;
+      margin-bottom: 2.5rem;
+    }
+
+    &--2 {
+
+    }
+
+    &--3 {
+      padding: .4rem 2rem;
+      margin-top: 2rem;
+    }
+  }
+}  // End Intro =============== //
+
+// Skill ===================== //
+.progress {
+  height: 1.8rem !important;
+  font-size: 1.2rem;
+}
+.skill {
+  // background-color: orange;
+
+  &_left {
+    // background-color: green;
+
+    &__content {
+      margin-bottom: 1.5rem;
+
+      &--txt {
+        font-size: 1.7rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  &_right {
+    // background-color: yellow;
+
+    &__content {
+      // background-color: red;
+      position: relative;
+      height: 20rem;
+      margin-bottom: 2rem;
+
+      &--img {
+        position: absolute;
+        left: 15%;
+        top: 10%;
+      }
+
+      &--1 {
+        position: absolute;
+        left: 24%;
+        top: 7%;
+        font-size: 15rem;
+      }
+
+      &--2 {
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        font-size: 2rem;
+        font-weight: bolder;
+      }
+    } // End right Content
+
+    &__gallary {
+      // background-color: skyblue;
+      margin: 0 auto;
+
+      &--img {
+        width: 12rem;
+        height: 12rem;
+        padding: 1rem;
+        margin: .5rem;
+        // background-color: orange;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        transition: all .2s;
+
+        &:hover {
+          box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        }
+      }
+    }
+  }
+
+} // End skill =============== //
+
+// service ====================//
+.service {
+  // background-color: lightgreen;
+  padding: 4rem;
+
+  &_box {
+    // max-width: 23.5% !important;
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: all .2s;
+
+    &_item {
+      // background-color: red;
+
+      &__imgBox {
+        width: 25%;
+        margin: 0 auto;
+
+        &--img {
+          width: 100%;
+        }
+      }
+
+      &--1 {
+        font-size: 2.7rem;
+        font-weight: bolder;
+        // background-color: red;
+      }
+
+      &--2 {
+        font-size: 1.6rem;
+        font-weight:lighter;
+        line-height: normal;
+        text-align: left;
+      }
+    }
+
+    &:hover {
+      border: 1px solid lightgray;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+  }
+
+
+} // End Service =============== //
+
+// Mail =============== //
+.mail {
+  // background-color: orange;
+  padding: 4rem 0;
+
+  &_box {
+    // background-color: gray;
+
+    &_one {
+      background-color: white;
+      padding: 2rem;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      border: 1px solid lightgray;
+      border-radius: 5px;
+
+    }
+
+    &_two {
+      background-color: white;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      border: 1px solid lightgray;
+      border-radius: 5px;
+
+      padding: 1rem;
+
+      &__imgbox {
+
+        &--img {
+          // width: 100%;
+          width: 6rem;
+          height: 6rem;
+          margin-top: 1rem;
+        }
+      }
+      &__content {
+        // background-color: yellow;
+        padding: 1rem;
+        margin-left: -1rem;
+        &--1 {
+
+        }
+
+        &--2 {
+          font-size: 1.6rem;
+          // background-color: red;
+        }
+
+      }
+    }
+
+  }
+}  // End Mail =============== //
+// Start Footer =============== //
+.footer {
+ background-color: rgb(46, 46, 46);
+ color: white;
+ font-size: 1.7rem;
+ padding: 3rem;
+
+} // End Footer =============== //

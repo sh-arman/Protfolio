@@ -1,0 +1,62 @@
+
+*,
+*:after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 10 px */
+  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+}
+
+body {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-family: sans-serif;
+}
+
+/* ============== Main ================ */
+main {
+  background-image: url('../img/banner/banner10.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+// media query manager
+/* ==================
+
+0    - 600
+600  - 900
+900  - 1200
+1200 - 1400 normal
+1400 - 1800
+1800 +
+
+================= */
+
+.section-intro {
+  padding: 4rem 0;
+}
+
+.section-skill{
+  padding: 2rem 0;
+}
+
+.section-service {
+  padding: 4rem 0;
+}
+
+.section-mail {
+  padding: 4rem 0;
+}
+
+.section-footer {
+  // padding: 4rem 0;
+}
